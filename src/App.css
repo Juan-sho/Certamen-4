@@ -1,0 +1,106 @@
+/* Contenedor Principal (Tarjeta) */
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-size: 24px; /* 👈 Esto controlará el tamaño gigante */
+  line-height: 1.2;
+}
+
+/* Formulario */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #2980b9;
+}
+
+/* Lista e Items */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border-left: 4px solid #3498db;
+}
+
+.item-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Botones de Acción */
+.btn-edit {
+  padding: 6px 12px;
+  background-color: #2ecc71; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #27ae60;
+}
+
+.btn-delete {
+  padding: 6px 12px;
+  background-color: #e74c3c; /* Rojo */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
