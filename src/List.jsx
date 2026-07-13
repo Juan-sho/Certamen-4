@@ -1,3 +1,5 @@
+import Item from "./Item.jsx";
+
 function List({ items, deleteItem, editItem }) {
   return (
     <ul className="item-list"> {/* 👈 Conecta con el CSS */}
